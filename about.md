@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+exclude_from_search: true
 ---
 
 Plottico's mission is to continuously make process monitoring simpler, less error-prone and more comprehensible by humans.

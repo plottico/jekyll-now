@@ -29,13 +29,54 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/search">Search</a>
           </nav>
+
         </header>
       </div>
     </div>
 
+
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h3>
+        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+        <a href="{{url}}">{{title}}</a>
+      </h3>
+      {{#is_post}}
+      <ul>
+        {{#tags}}<li>{{.}} </li>{{/tags}}
+      </ul>
+      {{/is_post}}
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+
     <div id="main" role="main" class="container">
+    
+    <div class="flexsearch">
+    <div class="flexsearch--wrapper">
+      <form class="flexsearch--form" action="/search" method="get" id="search">
+        <div class="flexsearch--input-wrapper">
+          <input class="flexsearch--input" type="search" placeholder="Search for snippet" name="q" id="search-query" autocomplete="off">
+        </div>
+        <input style="display:none" class="flexsearch--submit" type="submit" value="&#10140;" />
+      </form>
+    </div>
+    </div>
+    
+      <section id="search-results" style="display:none">
+        <header class="page-header">
+          <h2>Search results</h2>
+        </header>
+    
+        <div class="entries">
+        </div>
+      </section>
+    
       {{ content }}
     </div>
 
@@ -46,7 +87,23 @@
         </footer>
       </div>
     </div>
+<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+      results   : '#search-results',          // selector for containing search results element
+      template  : '#search-results-template', // selector for Mustache.js template
+      titleMsg  : '<h1>Search results<h1>',   // message attached in front of results (can be empty)
+      emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
+    });
+  });
+</script>
+<style type="text/css">
 
+ 
+
+</style>
     {% include analytics.html %}
   </body>
 </html>
