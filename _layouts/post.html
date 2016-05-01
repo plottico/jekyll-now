@@ -7,7 +7,27 @@ layout: default
 
   <div class="entry">
     {{ content }}
+  {% if page.snippet %}
+  
+  <p>Live preview. When your data arrives, it will be shown here:</p>
+  
+  <object data="https://plotti.co/YOUR_HASH" type="image/svg+xml"></object>
+  
+  
+  <h2>How to view plot</h2>
+  
+  <ul>
+  <li>View your plot live at: <a href="https://plotti.co/YOUR_HASH" target="_blank">https://plotti.co/YOUR_HASH</a></li>
+  <li>Add to your <a href="https://plotti.co/dash">plottico dashboard</a>: paste your hash <code class="s">YOUR_HASH</code> to 'add from API' form</li>
+  <li>Embed live: <code class="s">&lt;object data="https://plotti.co/YOUR_HASH" type="image/svg+xml"&gt;&lt;/object&gt;</code></li>
+  <li>Embed static: <code class="s">&lt;img src="https://plotti.co/YOUR_HASH"&gt;&lt;/img&gt;</code></li>
+  </ul>
+  
+  <p>Warinig! The hash <code class="s">YOUR_HASH</code> is automatically generated and stored in cookie for this page. You can re-generate new hash by clicking <a href="#" onclick="gen_new_hash()">update hash</a>.
+  This may be useful if you want to copy/paste this snippet for a new plot or installation.</p>
+  
   </div>
+  {% endif %}
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}

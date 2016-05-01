@@ -27,7 +27,7 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
 
@@ -78,7 +78,38 @@
       </section>
     
       {{ content }}
+      
+      {% if page.comments %}
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//plottico.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+{% endif %}
+      
     </div>
+
+
+
 
     <div class="wrapper-footer">
       <div class="container">
@@ -88,7 +119,9 @@
       </div>
     </div>
 <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
+/* global $ */
   $(function() {
     $('#search-query').lunrSearch({
       indexUrl  : '/js/index.json',           // url for the .json file containing search index data
@@ -98,12 +131,58 @@
       emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
     });
   });
+  function makeid() {
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for (var i = 0; i < 8; i++)
+      text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+    return text;
+  }
+  var YHC = window.location.pathname+"YH";
+  var YKC = window.location.pathname+"YK";
+  function gen_new_hash() {
+    YH = makeid();
+    YK = makeid();
+    $.cookie(YHC, YH, { expires : 60, path: window.location.pathname });
+    $.cookie(YKC, YK, { expires : 60, path: window.location.pathname });
+  }
+  var YH, YK;
+  if($.cookie(YHC) && $.cookie(YKC)) {
+    YH = $.cookie(YHC);
+    YK = $.cookie(YKC);
+    $.removeCookie(YHC);
+    $.removeCookie(YKC);
+    $.cookie(YHC, YH, { expires : 60, path: window.location.pathname });
+    $.cookie(YKC, YK, { expires : 60, path: window.location.pathname });
+  } else {
+    gen_new_hash();
+  }
+  $(".s").each(function() {
+    $(this).html($(this).html().replace("YOUR_HASH", YH));
+    $(this).html($(this).html().replace("YOUR_KEY", YK));
+  });
+  
+  $(".highlighter-rouge").each(function() {
+    $(this).html($(this).html().replace("YOUR_HASH", YH));
+    $(this).html($(this).html().replace("YOUR_KEY", YK));
+  });
+  
+  $("a").each(function() {
+    this.href = this.href.replace("YOUR_HASH", YH);
+    this.innerHTML = this.innerHTML.replace("YOUR_HASH", YH);
+  });
+  
+  $("object").each(function() {
+    if(this.data.indexOf("YOUR_HASH") != -1) {
+      this.data = this.data.replace("YOUR_HASH", YH);
+    }
+  });
 </script>
-<style type="text/css">
 
- 
 
-</style>
+
     {% include analytics.html %}
   </body>
 </html>

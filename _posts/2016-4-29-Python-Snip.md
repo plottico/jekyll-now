@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Python code for non-blocking updates
+comments: true
+snippet: true
 ---
 
 Example of python code for non-blocking update push. Put this in your module as a global definition.
@@ -33,3 +35,5 @@ plottico.put([0,0,0])
 ```
 
 This defines a global variable `plottico` in your module. You can add different streams to different modules with non-overlapping namespaces (do not do `from XXX import *`).
+
+Tags: python, api, programming, non-blocking
