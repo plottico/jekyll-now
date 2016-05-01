@@ -9,6 +9,13 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <script type="text/javascript">
+        var host = "doc.plotti.co";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
+
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
