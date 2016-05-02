@@ -166,6 +166,7 @@
   } else {
     gen_new_hash();
   }
+  window.parent.postMessage({action: "setHash",phash: YH}, "*");
   $(".s").each(function() {
     $(this).html($(this).html().replace("YOUR_HASH", YH));
     $(this).html($(this).html().replace("YOUR_KEY", YK));
