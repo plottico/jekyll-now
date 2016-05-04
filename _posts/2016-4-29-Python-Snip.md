@@ -19,7 +19,10 @@ def pt_updatr(q, phash, key="", caption=""):
     while True:
         v = q.get()
         if hasattr(v, '__iter__'): v = ','.join(str(x) for x in v)
-        urllib2.urlopen("https://plotti.co/%s?d=%s%s&k=%s" % (phash, v, caption, key) ).read(); q.task_done()
+        try:
+            urllib2.urlopen("https://plotti.co/%s?d=%s%s&k=%s" % (phash, v, caption, key) ).read(); q.task_done()
+        except: # SSLerror, IO, etc.
+            pass # Log here
 pt_wkr = threading.Thread(target=pt_updatr, args=(plottico, PT_HASH, PT_KEY, PT_CAPTION)); pt_wkr.setDaemon(True); pt_wkr.start()
 # <<< END PLOTTICO SNIPPPET
 ####################################
