@@ -1846,5 +1846,16 @@ gg==
        id="path4367"
        d="m 7.9234708,346.0806 -19.0516528,-1e-5 0,-38.81469 -24.431482,0 0,38.8147 -19.029397,0 31.256254,31.25627 31.2562778,-31.25627 z"
        style="fill:#666666;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.93550491px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="554.6792"
+       y="399.35376"
+       id="text4406"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4408"
+         x="554.6792"
+         y="399.35376">Bitcoin price, USD</tspan></text>
   </g>
 </svg>
