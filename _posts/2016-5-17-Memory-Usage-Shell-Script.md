@@ -7,7 +7,7 @@ snippet: true
 
 Plot current load on a unix host. 
 
-<object data="https://plotti.co/plottycocpu/300x80.svg" type="image/svg+xml"></object>
+<object data="https://plotti.co/plotticoram/300x80.svg" type="image/svg+xml"></object>
 
 Paste this script into console as user root:
 
