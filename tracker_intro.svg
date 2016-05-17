@@ -473,7 +473,7 @@ JVIDAAD832oWgic35qmysoeYCwAAgG+uxcD9X63PENRGE3zkAAAAAElFTkSuQmCC
        width="334.52802" />
     <image
        y="325.21933"
-       x="454.03897"
+       x="457.46753"
        id="image3112"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXwAAABuCAYAAAAkjqjuAAAABHNCSVQICAgIfAhkiAAAGzJJREFU
 eJzt3X9wm/d92PH35wEsUolIwPnl+BJbcJI158SZ6MVr3VtSwWlyzZw0eiQCIpzlYjjZ5XrpWjFd
@@ -604,23 +604,23 @@ pqP+P5pf6ppSjMi9AAAAAElFTkSuQmCC
        width="212.20779" />
     <path
        style="fill:#666666;fill-opacity:1;stroke:none"
-       d="m 583.63173,299.14249 -12.57566,-1e-5 0,-25.62091 -16.1268,0 0,25.62092 -12.56098,0 20.63172,20.63173 20.63172,-20.63173 z"
+       d="m 584.20313,299.14249 -12.57566,-1e-5 0,-25.62091 -16.1268,0 0,25.62092 -12.56098,0 20.63172,20.63173 20.63172,-20.63173 z"
        id="path4456"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-size:18.39329338px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
-       x="565.04523"
+       x="562.72717"
        y="118.59286"
        id="text3156"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3158"
-         x="568.24249"
+         x="565.92444"
          y="118.59286"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold">Plotti.co Tracker Pro </tspan><tspan
          sodipodi:role="line"
-         x="565.04523"
+         x="562.72717"
          y="141.58447"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold"
          id="tspan3160">extension</tspan></text>
@@ -648,17 +648,17 @@ pqP+P5pf6ppSjMi9AAAAAElFTkSuQmCC
        sodipodi:linespacing="125%"
        id="text3940"
        y="118.59286"
-       x="90.045227"
+       x="97.310127"
        style="font-size:18.39329338px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
          id="tspan3944"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold"
          y="118.59286"
-         x="90.045227"
+         x="97.310127"
          sodipodi:role="line">Plotti.co microservie</tspan><tspan
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold"
          y="141.58447"
-         x="90.045227"
+         x="97.310127"
          sodipodi:role="line"
          id="tspan3948">API</tspan></text>
     <a
@@ -1439,7 +1439,8 @@ AgAAAAAfEHcCAAAAAB8QdwIAAAAAH/4/GYO3b0yIvJkAAAAASUVORK5CYII=
     <a
        id="a4403"
        xlink:href="https://github.com/grandrew/plotti.co"
-       target="_blank">
+       target="_blank"
+       transform="translate(6.2857191,0)">
       <image
          width="144.83598"
          height="54.616924"
@@ -1674,7 +1675,7 @@ qDBTKBRKnEGFmUKhUOKM/w/e+TYqVwd4vwAAAABJRU5ErkJggg==
     </a>
     <image
        y="325.93359"
-       x="-25.766197"
+       x="-7.1233807"
        id="image4364"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXwAAABuCAYAAAAkjqjuAAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJztnXt8XNdd4L+/M2NLTh1pkjZNHyke2QVaQhtN+qCltjVuaHkU8MSW4gnwwZO2fLZsAauF0MdS
@@ -1842,7 +1843,7 @@ gg==
     <path
        inkscape:connector-curvature="0"
        id="path4367"
-       d="m 102.91745,299.14249 -12.575666,-1e-5 0,-25.62091 -16.1268,0 0,25.62092 -12.56098,0 20.63172,20.63173 20.631726,-20.63173 z"
+       d="m 118.34601,299.14249 -12.57567,-1e-5 0,-25.62091 -16.126804,0 0,25.62092 -12.56098,0 20.63172,20.63173 20.631734,-20.63173 z"
        style="fill:#666666;fill-opacity:1;stroke:none" />
   </g>
 </svg>
