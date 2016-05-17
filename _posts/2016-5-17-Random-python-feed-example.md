@@ -9,7 +9,7 @@ Plot some random values with python on an embeddable real-time SVG plot.
 
 <object data="https://plotti.co/random_sample/300x80.svg" type="image/svg+xml"></object>
 
-Here is the full python script that plottico uses internally to feed the sample data:
+Here is the full python script that plottico uses internally to feed the sample data. You can just copy-and-paste it and run - it is already configured. You will see your result in the plot below.
 
 ```python
 #!/usr/bin/python
