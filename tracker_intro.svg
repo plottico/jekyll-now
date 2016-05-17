@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="816.12115"
-   height="403.82733"
+   width="1226.0927"
+   height="561.30847"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="419.09153"
-     inkscape:cy="208.95651"
+     inkscape:zoom="1"
+     inkscape:cx="624.07728"
+     inkscape:cy="300.95652"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,10 +73,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(75.285713,7.179447)">
+     transform="translate(280.27147,72.660562)">
     <image
-       y="157.0217"
-       x="396.3074"
+       y="130.7731"
+       x="429.0242"
        id="image3047"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA7kAAAE8CAIAAACKJ+HVAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nOzdf1xT970/8PfJzwMoiT8gsVZDVwVcBelWkf6Q61pl7Cpe7q04N2XlO8stnXVlrXa0l9vSzlvt
@@ -469,11 +469,11 @@ dEL1zqnMvvln1p1GdVaWjJya7mzO6XtucAIAAABmQ3VmTfYZ1+1CzjxBMrOyZCfXzMaJdi8KAACA
 6ZWTWfVpdds5Gp5WK4+2e3LjVmkAAADMktN2SuQF3yYnN4ikzVIs2RcAAACtqJV3T/OtJlnZmkT8
 JVIDAAD832oWgic35qmysoeYCwAAgG+uxcD9X63PENRGE3zkAAAAAElFTkSuQmCC
 "
-       height="110.92429"
-       width="334.52802" />
+       height="168.04601"
+       width="506.797" />
     <image
-       y="325.21933"
-       x="457.46753"
+       y="385.586"
+       x="521.67938"
        id="image3112"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXwAAABuCAYAAAAkjqjuAAAABHNCSVQICAgIfAhkiAAAGzJJREFU
 eJzt3X9wm/d92PH35wEsUolIwPnl+BJbcJI158SZ6MVr3VtSwWlyzZw0eiQCIpzlYjjZ5XrpWjFd
@@ -600,33 +600,33 @@ aqAxm8VKOmY7eR/+8h2/2aHjjNlWLOCb7eKDwK9y7VyQJ/BLNW/GX87jFuBf4Xfmho/7PWAv8Arg
 TvwlQ14M/FPgefxO3XcAn+nC92GMMcYYY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHGGGOMMcYYY4wx
 pqP+P5pf6ppSjMi9AAAAAElFTkSuQmCC
 "
-       height="61.42857"
-       width="212.20779" />
+       height="93.061897"
+       width="321.48657" />
     <path
        style="fill:#666666;fill-opacity:1;stroke:none"
-       d="m 584.20313,299.14249 -12.57566,-1e-5 0,-25.62091 -16.1268,0 0,25.62092 -12.56098,0 20.63172,20.63173 20.63172,-20.63173 z"
+       d="m 713.67895,346.0806 -19.05164,-1e-5 0,-38.81469 -24.43148,0 0,38.8147 -19.0294,0 31.25626,31.25627 31.25626,-31.25627 z"
        id="path4456"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:18.39329338px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
-       x="562.72717"
-       y="118.59286"
+       style="font-size:27.86512566px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       x="681.14368"
+       y="72.554901"
        id="text3156"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3158"
-         x="565.92444"
-         y="118.59286"
+         x="685.98743"
+         y="72.554901"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold">Plotti.co Tracker Pro </tspan><tspan
          sodipodi:role="line"
-         x="562.72717"
-         y="141.58447"
+         x="681.14368"
+         y="107.38631"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold"
          id="tspan3160">extension</tspan></text>
     <g
        id="g3936"
-       transform="translate(127.85715,23.571428)"
+       transform="matrix(1.5149612,0,0,1.5149612,22.332479,-71.398876)"
        style="fill:#666666;fill-opacity:1">
       <rect
          y="179.50504"
@@ -647,24 +647,25 @@ pqP+P5pf6ppSjMi9AAAAAElFTkSuQmCC
     <text
        sodipodi:linespacing="125%"
        id="text3940"
-       y="118.59286"
-       x="97.310127"
-       style="font-size:18.39329338px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
+       y="72.554901"
+       x="-23.945076"
+       style="font-size:27.86512566px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"><tspan
          id="tspan3944"
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold"
-         y="118.59286"
-         x="97.310127"
+         y="72.554901"
+         x="-23.945068"
          sodipodi:role="line">Plotti.co microservie</tspan><tspan
          style="font-weight:bold;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;-inkscape-font-specification:Sans Bold"
-         y="141.58447"
-         x="97.310127"
+         y="107.38631"
+         x="-23.945076"
          sodipodi:role="line"
          id="tspan3948">API</tspan></text>
     <a
        id="a4400"
        xlink:href="https://chrome.google.com/webstore/detail/plottico-tracker-pro/hjfkpgknlchgabgfhknaedgodmnhieep"
-       target="_blank">
+       target="_blank"
+       transform="matrix(1.5149612,0,0,1.5149612,-171.36615,-107.10868)">
       <image
          width="174.78094"
          height="52.857143"
@@ -954,7 +955,7 @@ giAIgiAIgiAIgiAIYpLw/wGMfyj+3dU50gAAAABJRU5ErkJggg==
          y="218.79076"></tspan></text>
     <g
        id="g4164"
-       transform="translate(-35.714286,-2.5926223)">
+       transform="matrix(1.5149612,0,0,1.5149612,-225.4719,-111.0364)">
       <rect
          transform="matrix(0.99346974,0,0,0.9930265,-0.19310902,1.1451837)"
          y="173.6479"
@@ -1440,7 +1441,7 @@ AgAAAAAfEHcCAAAAAB8QdwIAAAAAH/4/GYO3b0yIvJkAAAAASUVORK5CYII=
        id="a4403"
        xlink:href="https://github.com/grandrew/plotti.co"
        target="_blank"
-       transform="translate(6.2857191,0)">
+       transform="matrix(1.5149612,0,0,1.5149612,-161.84353,-107.10868)">
       <image
          width="144.83598"
          height="54.616924"
@@ -1674,8 +1675,8 @@ qDBTKBRKnEGFmUKhUOKM/w/e+TYqVwd4vwAAAABJRU5ErkJggg==
          y="29.339443" />
     </a>
     <image
-       y="325.93359"
-       x="-7.1233807"
+       y="386.66809"
+       x="-182.15779"
        id="image4364"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXwAAABuCAYAAAAkjqjuAAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJztnXt8XNdd4L+/M2NLTh1pkjZNHyke2QVaQhtN+qCltjVuaHkU8MSW4gnwwZO2fLZsAauF0MdS
@@ -1838,12 +1839,12 @@ Bjoca40zXx0ble8HfhybhbMNK/DvB55j8XoQgFuBncBDwCfXurEOh8PhcDgcDofD4XA4HA6Hw+Fw
 OBwOh8PhcDgcDofD4XA4HA6Hw+FwOBwOh8PhcDgcDofD4Vgt/j82iUwre5IPswAAAABJRU5ErkJg
 gg==
 "
-       height="60.695488"
-       width="209.67532" />
+       height="91.951309"
+       width="317.64996" />
     <path
        inkscape:connector-curvature="0"
        id="path4367"
-       d="m 118.34601,299.14249 -12.57567,-1e-5 0,-25.62091 -16.126804,0 0,25.62092 -12.56098,0 20.63172,20.63173 20.631734,-20.63173 z"
+       d="m 7.9234708,346.0806 -19.0516528,-1e-5 0,-38.81469 -24.431482,0 0,38.8147 -19.029397,0 31.256254,31.25627 31.2562778,-31.25627 z"
        style="fill:#666666;fill-opacity:1;stroke:none" />
   </g>
 </svg>
