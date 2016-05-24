@@ -187,6 +187,10 @@
       this.data = this.data.replace("YOUR_HASH", YH);
     }
   });
+  
+  if (window!=window.top) { 
+    $(".wrapper-masthead").hide();
+  }
 </script>
 
 
