@@ -23,7 +23,10 @@ while True:
         rnd[i]+=(random.random()-0.5)
         if rnd[i] > 10.0: rnd = [0.,0.,0.]
         elif rnd[i] < 0.0: rnd[i] = 0.0
-    urllib2.urlopen("https://plotti.co/%s?d=%s,%s&k=%s" % (phash, ','.join(str(x) for x in rnd), caption, key) ).read()
+    try:
+        urllib2.urlopen("https://plotti.co/%s?d=%s,%s&k=%s" % (phash, ','.join(str(x) for x in rnd), caption, key) ).read()
+    except:
+        pass
     time.sleep(0.3)
 ```
 
